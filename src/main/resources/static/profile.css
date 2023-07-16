@@ -1,0 +1,55 @@
+/* CSS code for allbuses.css */
+
+/* Styles for the logout button */
+.logout-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  padding: 10px;
+  background-color: #d31b0c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #b82727;
+}
+
+/* Styles for the header */
+header {
+  position: relative;
+  height: 50px;
+  background-color: #408080;
+  text-align: center;
+  color: black;
+}
+
+/* Styles for the background image */
+body {
+  background-image: url("");
+  background-size: cover;
+  background-position: center center;
+  font-size: large;
+}
+
+/* Styles for the table */
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table td {
+  background-color: #fff;
+}
